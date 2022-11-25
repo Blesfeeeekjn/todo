@@ -1,0 +1,16 @@
+.item{
+  display: grid;
+  grid-template-columns: 20px 1fr auto auto auto;
+  gap: 20px;
+  align-items: center;
+  width: 600px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+.text{
+  margin-bottom: 0;
+}
+.checked{
+  text-decoration: line-through ;
+}

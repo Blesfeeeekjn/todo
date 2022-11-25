@@ -1,0 +1,32 @@
+@import "~bootstrap/scss/bootstrap";
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+$widthInputs: 300px;
+$buttonBg: #5167c7;
+$buttonBgHov: #354280;
+$colorClose: rgb(205, 21, 55);
+$colorEdit: rgb(236, 168, 26);
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  background: #fff;
+}
+header{
+  background: rgb(206, 205, 205);
+  padding: 10px 0;
+}
+section{
+  padding-top: 40px;
+}
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+button {
+  border: none;
+}
