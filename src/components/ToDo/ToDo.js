@@ -23,12 +23,12 @@ function ToDo() {
     );
   }
 
-  const paginationBasic = (
-    <div>
-      <Pagination>{paginPage}</Pagination>
-      <br />  
-    </div>
-  );
+  // const paginationBasic = (
+  //   <div>
+  //     <Pagination>{paginPage}</Pagination>
+  //     <br />  
+  //   </div>
+  // );
 
   //End pagination
 
